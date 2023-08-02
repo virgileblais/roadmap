@@ -1,0 +1,31 @@
+/*
+CHALLENGE:
+This one is meant to be a tough challenge. You probably will need to Google this and it might take you a while to complete.
+
+What does result evaluate to?
+
+const myObj = {
+  nestedObject1: {
+    price: 100,
+    quantity: 5
+  },
+  nestedObject2: {
+    price: 150,
+    quantity: 2
+  }
+};
+
+const myArray = [myObj.nestedObject1, myObj.nestedObject2];
+
+const result = (myArray[0].price * myArray[0].quantity) > (myArray[1].price * myArray[1].quantity);
+*/
+
+/*
+ANSWER:
+result evaluates to true as:
+    myArray[0].price (which is 100) multiplied by myArray[0].quantity (which is 5) evaluates to 500
+    myArray[1].price (which is 150) multiplied by myArray[1].quantity (which is 2) evaluates to 300
+    500 is greater than 300 thus result is true
+*/
+
+//ANSWER is CORRECT
