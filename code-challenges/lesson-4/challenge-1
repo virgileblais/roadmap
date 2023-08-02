@@ -1,0 +1,27 @@
+/*
+CHALLENGE:
+Why doesn't this code work? Try to make it work and guess what the result will be (hint: this is a little bit of a review from last lesson).
+
+const numberVariable = 0;
+
+numberVariable++;
+numberVariable++;
+numberVariable++;
+
+console.log(numberVariable);
+*/
+
+/*
+ANSWER:
+'const' was used to declare numberVariable thus numberVariable cannot be reassigned by numberVariable++. 'let' should have been used instead of const, as it allows for a variable to be reassigned
+*/
+
+let numberVariable = 0;
+
+numberVariable++;
+numberVariable++;
+numberVariable++;
+
+console.log(numberVariable); //3
+
+// ANSWER CORRECT
