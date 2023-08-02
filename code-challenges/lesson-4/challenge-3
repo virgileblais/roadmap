@@ -1,0 +1,32 @@
+/*
+CHALLENGE:
+What does expression5 evaluate to? How could you write this in a single line of code (for exercise purposes only; you would never want to combine all this in one line)?
+
+const expression1 = 100 % 50;
+const expression2 = 100 / 50;
+const expression3 = expression1 < expression2;
+const expression4 = expression3 && 300 + 5 === 305;
+const expression5 = !expression4;
+
+console.log(expression5);
+*/
+
+/*
+ANSWER:
+expression5 evaluates to false as:
+    expression1 evaluates to 0
+    expression2 evaluates to 2
+    expression3 is true as 0 is less than 2
+    expression4 is true as expression3 is true AND 300+5 is equal to 305
+    expression5 is NOT true, thus expression5 evaluates to false
+*/
+const expression5 = !(100 % 50 < 100 / 50 && 300 + 5 === 305)
+
+//ANSWER is CORRECT
+
+/*
+ANSWER IMPROVEMENT:
+Although the single line of code I created evaluated correctly, upon checking the answer key I learned that parentheses can be used to group expressions thus ensuring the desired order of operations.
+
+const expression5 = !(((100 % 50) < (100 / 50)) && ((300 + 5) === 305))
+*/
