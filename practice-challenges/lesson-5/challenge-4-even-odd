@@ -1,0 +1,26 @@
+/*
+CHALLENGE:
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+function evenOrOdd(number) {
+  
+}
+*/
+
+/*
+ANSWER:
+I did not remember which function could be used to evaluate a number as even/odd, thus I referenced JS operator documentation.
+Could not find anything specific to even/odd evaluation, thus the division operator seemed to be the only option.
+I first attempted to use '/' to divide by 2 however I then realized that I would still need to evaluate if there is a remainder or not.
+There did not seem to be a function that could accomplish this directly.
+After some reading, I saw that by rounding the product I could then determine if the rounded product is equal to the original product, and thus even.
+*/
+
+function evenOrOdd(number) {
+  if (Math.floor(number / 2) === (number / 2)) {
+    return "Even";
+  }
+  else {
+    return "Odd"
+  }
+}
