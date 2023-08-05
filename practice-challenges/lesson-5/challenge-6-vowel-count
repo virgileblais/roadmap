@@ -1,0 +1,26 @@
+/*
+CHALLENGE:
+Return the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+
+function getCount(str) {
+  return 0;
+}
+
+*/
+
+/*
+ANSWER:
+As this problem seemed similar to challenge 5-counting sheep, I decided to follow the same approach with 'split' and 'filter'.
+However in this challenge, I needed to filter 5 values instead of just 1, thus I used multiple '||' operators also.
+*/
+function getCount(str) {
+    count = str.split('').filter(character =>
+        character === 'a' || character === 'e' || character === 'i' || character === 'o' || character === 'u').length;
+    return count;
+  }
+
+//ANSWER is CORRECT
