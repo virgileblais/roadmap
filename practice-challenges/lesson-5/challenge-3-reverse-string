@@ -1,0 +1,26 @@
+/*
+CHALLENGE:
+Complete the solution so that it reverses the string passed into it.
+
+Example:
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+
+Solution:
+function solution(str){
+  
+}
+*/
+
+/*
+ANSWER:
+I did not remember which function could be used to reverse a string thus I referenced ChatGPT.
+Seems like there is a reverse function for arrays.
+I decided to split the string into an array, to then reverse it, and then re-join it into the reversed string.
+*/
+
+function solution(str) {
+  return str.split('').reverse('').join('');
+}
+
+//ANSWER is CORRECT
