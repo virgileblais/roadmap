@@ -24,3 +24,17 @@ function evenOrOdd(number) {
     return "Odd"
   }
 }
+
+/*
+ANSWER is CORRECT
+
+However, there was a simpler way of solving the challenge by using the modulus operator which would return a remainder in the case of an odd input.
+
+function even_or_odd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+*/
