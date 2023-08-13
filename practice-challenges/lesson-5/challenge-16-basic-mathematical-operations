@@ -1,0 +1,44 @@
+/*
+CHALLENGE:
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string.
+You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+*/
+
+/*
+ANSWER:
+
+function basicOp(operation, value1, value2) {
+    if (operation == '+') {
+     return (value1) + (value2); 
+    }
+    if (operation == '-') {
+     return (value1) - (value2); 
+    }
+    if (operation == '*') {
+     return (value1) * (value2); 
+    }
+    if (operation == '/') {
+     return (value1) / (value2); 
+    }
+  }
+/*
+
+//ANSWER is CORRECT
+
+/*
+REVISED ANSWER:
+Upon reviewing peer answers, I saw switch case statements used and I thought that I could have used that instead of the lengthier 'if' statments.
+*/
+
+function basicOp(operation, value1, value2) {
+    switch (operation) {
+        case '+':
+            return value1 + value2; 
+        case '-':
+            return value1 - value2; 
+        case '*':
+        value1 * value2; 
+        case '/':
+            return value1 / value2; 
+    }
+}
