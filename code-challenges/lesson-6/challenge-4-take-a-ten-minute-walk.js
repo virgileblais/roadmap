@@ -10,10 +10,56 @@ Note: you will always receive a valid array containing a random assortment of di
 It will never give you an empty array (that's not a walk, that's standing still!).
 */
 
-//ANSWER:
+/*ANSWER:
 
 function isValidWalk(walk) {
-    //insert brilliant code here
-  }
+  let blocks = 0;
+  walk.forEach(() => blocks++);
+  return blocks === 10;
+}
+*/
 
-//ANSWER is ?
+//ANSWER is partially CORRECT
+
+/*
+REVISED ANSWER:
+Previous answer was incorrect because it did not account for the fact that the walk must return to the starting point.
+
+Planned Additions:
+function isValidWalk(walk) {
+    let blocks = 0;
+    walk.forEach(() =>
+                 blocks++;
+                 //'endPoint = direction subtraction'
+    return (blocks === 10) && //'is 'end point' === 0'
+}
+*/
+
+function isValidWalk(walk) {
+  let blocks = 0;
+  let endPointVertical = 0;
+  let endPointHorizontal = 0;
+  walk.forEach((direction) => {
+    blocks++;
+    if (direction === 'n') {
+      endPointVertical++;
+    }
+    if (direction === 's') {
+      endPointVertical--;
+    }
+    if (direction === 'e') {
+      endPointHorizontal++;
+    }
+    if (direction === 'w') {
+      endPointHorizontal--;
+    }
+  })
+  return (blocks === 10) && (endPointVertical === 0) && (endPointHorizontal === 0);
+}
+
+//ANSWER is CORRECT
+
+/*
+REFLECTION:
+I accorded with the planned, however as I was writing I realized that I needed multiple endPoint variables, endPointVertical and endPointHorizontal, as the challenge was two-dimensional, rather than one-dimensional.
+*/
