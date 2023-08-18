@@ -11,7 +11,7 @@ Example
 //ANSWER:
 
 function filter_list(l) {
-    // Return a new array with the strings filtered out
+    return l.filter((listItem) => typeof(listItem) == 'number');
   }
 
-//ANSWER is ?
+//ANSWER is CORRECT
