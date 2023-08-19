@@ -4,6 +4,7 @@
  */
 function clearAll() {}
 
+//DONE
 /**
  * TODO:
  * - Show a random Meme in the correct location
@@ -13,6 +14,7 @@ function showMeme() {
   // Value is a string representing image URL
   let randomMemeUrl = getRandomData("memes");
   document.getElementById("meme").src = randomMemeUrl;
+  document.getElementById("meme").style.display = "block";
 }
 
 //DONE
@@ -27,6 +29,7 @@ function showJoke() {
   document.getElementById("joke").innerText = randomJoke;
 }
 
+//DONE
 /**
  * TODO:
  * - Show a random quote in the correct location
