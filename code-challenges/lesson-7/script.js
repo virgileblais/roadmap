@@ -2,7 +2,15 @@
  * TODO: Implement a function that clears all the content
  * prior to generating new random content
  */
-function clearAll() {}
+function clearAll() {
+  document.getElementById("meme").style.display = "none";
+  document.getElementById("joke").innerText = "";
+  document.getElementById("quote").innerText = "";
+  document.getElementById("quoteAuthor").innerText = "";
+  document.getElementById("riddleQuestion").innerText = "";
+  document.getElementById("riddleAnswer").innerText = "";
+  document.getElementById("riddleAnswer").style.display = 'none';
+}
 
 //DONE
 /**
@@ -12,6 +20,7 @@ function clearAll() {}
  */
 function showMeme() {
   // Value is a string representing image URL
+  clearAll();
   let randomMemeUrl = getRandomData("memes");
   document.getElementById("meme").src = randomMemeUrl;
   document.getElementById("meme").style.display = "block";
@@ -25,6 +34,7 @@ function showMeme() {
  */
 function showJoke() {
   // Value is a string representing the joke
+  clearAll();
   let randomJoke = getRandomData("jokes");
   document.getElementById("joke").innerText = randomJoke;
 }
@@ -37,11 +47,13 @@ function showJoke() {
  */
 function showQuote() {
   // Value should be in format: { quote: '', author: '' }
+  clearAll();
   let randomQuote = getRandomData("quotes");
   document.getElementById("quote").innerText = randomQuote.quote;
   document.getElementById("quoteAuthor").innerText = '-' + randomQuote.author;
 }
 
+//DONE
 /**
  * TODO:
  * - Show a random riddle in the correct location
@@ -50,11 +62,13 @@ function showQuote() {
  */
 function showRiddle() {
   // Value should be in format: { question: '', answer: '' }
+  clearAll();
   const randomRiddle = getRandomData("riddles");
   document.getElementById("riddleQuestion").innerText = randomRiddle.question;
   document.getElementById("riddleAnswer").innerText = randomRiddle.answer;
 }
 
+//DONE
 /**
  * TODO: Unhide the riddle's answer
  * - If there is no riddle shown, alert the user that there is no riddle
