@@ -19,9 +19,12 @@ function showMeme() {
  * - Show a random joke in the correct location
  * - Never show more than 1 joke at a time
  */
+//DONE
 function showJoke() {
   // Value is a string representing the joke
-  const randomJokeText = getRandomData("jokes");
+  let randomJoke = getRandomData("jokes");
+  const randomJokeElement = document.getElementById("joke");
+  randomJokeElement.innerText = randomJoke;
 }
 
 /**
