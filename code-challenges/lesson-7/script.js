@@ -24,8 +24,7 @@ function showMeme() {
 function showJoke() {
   // Value is a string representing the joke
   let randomJoke = getRandomData("jokes");
-  const randomJokeElement = document.getElementById("joke");
-  randomJokeElement.innerText = randomJoke;
+  document.getElementById("joke").innerText = randomJoke;
 }
 
 /**
@@ -36,8 +35,8 @@ function showJoke() {
 function showQuote() {
   // Value should be in format: { quote: '', author: '' }
   let randomQuote = getRandomData("quotes");
-  const randomQuoteElement = document.getElementById("quote");
-  randomQuoteElement.innerText = randomQuote;
+  document.getElementById("quote").innerText = randomQuote.quote;
+  document.getElementById("quoteAuthor").innerText = '-' + randomQuote.author;
 }
 
 /**
