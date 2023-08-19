@@ -11,15 +11,16 @@ function clearAll() {}
  */
 function showMeme() {
   // Value is a string representing image URL
-  const randomMemeUrl = getRandomData("memes");
+  let randomMemeUrl = getRandomData("memes");
+  document.getElementById("meme").src = randomMemeUrl;
 }
 
+//DONE
 /**
  * TODO:
  * - Show a random joke in the correct location
  * - Never show more than 1 joke at a time
  */
-//DONE
 function showJoke() {
   // Value is a string representing the joke
   let randomJoke = getRandomData("jokes");
@@ -34,7 +35,9 @@ function showJoke() {
  */
 function showQuote() {
   // Value should be in format: { quote: '', author: '' }
-  const randomQuote = getRandomData("quotes");
+  let randomQuote = getRandomData("quotes");
+  const randomQuoteElement = document.getElementById("quote");
+  randomQuoteElement.innerText = randomQuote;
 }
 
 /**
