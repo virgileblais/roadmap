@@ -121,6 +121,11 @@ button {
   letter-spacing: 2px;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: rgba(154, 205, 45, 0.8);
+}
+
 #why-us-box-header {
   position: relative;
   top: 35px;

@@ -1,1 +1,3 @@
-//No interactivity yet, just trying to match the challenge's design first.
+document.getElementsByTagName("button")[0].onclick = () => {
+    alert("Hello! You clicked the sign-up button.")
+  }
