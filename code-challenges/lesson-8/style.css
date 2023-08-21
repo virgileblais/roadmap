@@ -1,7 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 #main-box {
-  position: relative;
-  left: 35vw;
-  width: 700px;
+  width: 650px;
   height: 475px;
   border-radius: 5px;
   overflow: hidden;
@@ -9,26 +19,28 @@
   font-family: sans-serif;
 }
 
-#header-box {
-  position: relative;
+#top-box {
   background-color: white;
-  height: 200px;
+  height: 40%;
 }
 
 #bottom-box {
-  display: flex;
+  height: 60%;
+  width: 100%;
 }
 
 #subscription-box {
-  width: 350px;
-  height: 275px;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
   background-color: rgba(0, 128, 128, 0.85);
   color: white;
 }
 
 #why-us-box {
-  width: 350px;
-  height: 275px;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
   background-color: rgba(0, 128, 128, 0.75);
   color: white;
 }
@@ -37,7 +49,7 @@
 
 
 
-#header-box h1 {
+#top-box h1 {
   position: relative;
   top: 35px;
   left: 35px;
@@ -46,7 +58,7 @@
   letter-spacing: 2px;
 }
 
-#header-box h2 {
+#top-box h2 {
   position: relative;
   top: 45px;
   left: 35px;
@@ -55,7 +67,7 @@
   letter-spacing: 1.5px;
 }
 
-#header-box p {
+#top-box p {
   position: relative;
   left: 35px;
   color: rgba(0, 0, 0, 0.6);
@@ -111,8 +123,8 @@ button {
   position: relative;
   top: 35px;
   left: 35px;
-  width: 280px;
-  height: 45px;
+  width: 80%;
+  height: 15%;
   border-radius: 5px;
   border: none;
   box-shadow: 0px 7px 2px rgba(0,0,0, 0.1);
