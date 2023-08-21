@@ -1,63 +1,142 @@
 #main-box {
-    position: relative;
-    left: 35vw;
-    width: 700px;
-    height: 500px;
-    box-shadow: 0px 0px 4px black;
-    font-size: 16px;
-      border-radius: 10px;
-  }
-  
-  #header-box {
-    background-color: white;
-  }
-  
-  #subscription-box {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background-color: teal;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #why-us-box {
-    display: inline-block;
-    width: 200px;
-    height: 300px;
-    background-color: rgba(0, 128, 128, 0.8);
-    color: white;
-  }
-  
-  
-  .content {
-    position: relative;
-    left: 35px;
-    top: 15px;
-  }
-  
-  #header-box h1 {
-    color: teal;
-  }
-  
-  #header-box h2 {
-    color: yellowgreen;
-  }
-  
-  #header-box p {
-    color: rgba(0, 0, 0, 0.6);
-  }
-  
-  button {
-    position: relative;
-    left: 70px;
-    width: 230px;
-    height: 40px;
-    background-color: yellowgreen;
-    color: white;
-    border: 0;
-    box-shadow: 0px 0px 2px black;
-    border-radius: 5px;
-  }
+  position: relative;
+  left: 35vw;
+  width: 700px;
+  height: 475px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px black;
+  font-family: sans-serif;
+}
+
+#header-box {
+  position: relative;
+  background-color: white;
+  height: 200px;
+}
+
+#bottom-box {
+  display: flex;
+}
+
+#subscription-box {
+  width: 350px;
+  height: 275px;
+  background-color: rgba(0, 128, 128, 0.85);
+  color: white;
+}
+
+#why-us-box {
+  width: 350px;
+  height: 275px;
+  background-color: rgba(0, 128, 128, 0.75);
+  color: white;
+}
+
+
+
+
+
+#header-box h1 {
+  position: relative;
+  top: 35px;
+  left: 35px;
+  color: rgba(0, 128, 128, 0.85);
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+#header-box h2 {
+  position: relative;
+  top: 45px;
+  left: 35px;
+  color: rgba(154, 205, 45, 0.85);
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+#header-box p {
+  position: relative;
+  left: 35px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#first-header-paragraph {
+  position: relative;
+  top: 45px;
+}
+
+#second-header-paragraph {
+  position: relative;
+  top: 40px;
+}
+
+#subscription-box-header {
+  position: relative;
+  top: 35px;
+  left: 35px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#price {
+  position: relative;
+  top: 35px;
+  left: 35px;
+  font-size: 34px;
+  letter-spacing: 1px;
+}
+
+#subscription-box p {
+  position: relative;
+  top: 18px;
+  left: 35px;
+}
+
+span {
+  position: relative;
+  top: -8px;
+  font-size: 16px;
+  font-weight: 2px;
+  color: rgba(255,255,255, 0.5);
+}
+
+#subscription-box p {
+  color: rgba(255,255,255, 0.8);
+}
+
+button {
+  position: relative;
+  top: 35px;
+  left: 35px;
+  width: 280px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 7px 2px rgba(0,0,0, 0.1);
+  background-color: rgba(154, 205, 45, 0.9);
+  color: white;
+  letter-spacing: 2px;
+}
+
+#why-us-box-header {
+  position: relative;
+  top: 35px;
+  left: 35px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+ul {
+  position: relative;
+  top: 35px;
+  left: -3px;
+  font-size: 14px;
+  color: rgba(255,255,255, 0.7);
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 7px;
+}
