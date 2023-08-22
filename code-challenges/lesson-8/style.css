@@ -2,8 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-h1, h2, p {
+h1, h2, p, ul {
   margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
@@ -12,17 +13,61 @@ h1, h2, p {
 
 #main-box {
   width: 650px;
-  height: 475px;
+  height: 435px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 0px 4px black;
   font-family: sans-serif;
 }
 
+
+
+
+
+
 #top-box {
   background-color: white;
   height: 40%;
 }
+
+#top-box-content {
+  position: relative;
+  top: 35px;
+  left: 35px;
+}
+
+#top-box h1 {
+  color: rgba(0, 128, 128, 0.85);
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-bottom:20px
+}
+
+#top-box h2 {
+  color: rgba(154, 205, 45, 0.85);
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-bottom:15px
+}
+
+#top-box-paragraphs {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 11.5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#top-box-first-paragraph {
+    margin-bottom: 5px;
+}
+
+#top-box-second-paragraph {
+    margin-bottom: 5px;
+}
+
+
+
+
 
 #bottom-box {
   height: 60%;
@@ -31,100 +76,47 @@ h1, h2, p {
 
 #subscription-box {
   display: inline-block;
+  vertical-align: top;
   height: 100%;
   width: 50%;
   background-color: rgba(0, 128, 128, 0.85);
   color: white;
 }
 
-#why-us-box {
-  display: inline-block;
-  height: 100%;
-  width: 50%;
-  background-color: rgba(0, 128, 128, 0.75);
-  color: white;
-}
-
-
-
-
-
-#top-box h1 {
+#subscription-box-content {
   position: relative;
   top: 35px;
   left: 35px;
-  color: rgba(0, 128, 128, 0.85);
-  font-size: 21px;
-  letter-spacing: 2px;
-}
-
-#top-box h2 {
-  position: relative;
-  top: 45px;
-  left: 35px;
-  color: rgba(154, 205, 45, 0.85);
-  font-size: 16px;
-  letter-spacing: 1.5px;
-}
-
-#top-box p {
-  position: relative;
-  left: 35px;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-
-#first-header-paragraph {
-  position: relative;
-  top: 45px;
-}
-
-#second-header-paragraph {
-  position: relative;
-  top: 40px;
 }
 
 #subscription-box-header {
-  position: relative;
-  top: 35px;
-  left: 35px;
   font-size: 16px;
   letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 #price {
-  position: relative;
-  top: 35px;
-  left: 35px;
   font-size: 34px;
   letter-spacing: 1px;
-}
-
-#subscription-box p {
-  position: relative;
-  top: 18px;
-  left: 35px;
+  margin-bottom: 10px;
 }
 
 span {
-  position: relative;
-  top: -8px;
+  vertical-align: 30%;
   font-size: 16px;
   font-weight: 2px;
+  font-weight: lighter;
   color: rgba(255,255,255, 0.5);
 }
 
 #subscription-box p {
   color: rgba(255,255,255, 0.8);
+  margin-bottom: 30px;
 }
 
 button {
-  position: relative;
-  top: 35px;
-  left: 35px;
   width: 80%;
-  height: 15%;
+  height: 50px;
   border-radius: 5px;
   border: none;
   box-shadow: 0px 7px 2px rgba(0,0,0, 0.1);
@@ -138,23 +130,36 @@ button:hover {
   background-color: rgba(154, 205, 45, 0.8);
 }
 
-#why-us-box-header {
+
+
+
+
+#why-us-box {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(0, 128, 128, 0.75);
+  color: white;
+}
+
+#why-us-box-content {
   position: relative;
   top: 35px;
   left: 35px;
+}
+
+#why-us-box h1 {
   font-size: 16px;
   letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 ul {
-  position: relative;
-  top: 35px;
-  left: -3px;
   font-size: 14px;
   color: rgba(255,255,255, 0.7);
   list-style-type: none;
 }
 
 li {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
 }
