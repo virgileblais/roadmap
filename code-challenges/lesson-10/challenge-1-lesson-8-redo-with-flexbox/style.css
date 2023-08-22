@@ -12,8 +12,6 @@ h1, h2, p, ul {
 }
 
 #main-box {
-  width: 650px;
-  height: 435px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 0px 4px black;
@@ -70,15 +68,14 @@ h1, h2, p, ul {
 
 
 #bottom-box {
+  display: flex;
+  flex-direction: column;
   height: 60%;
   width: 100%;
 }
 
 #subscription-box {
-  display: inline-block;
-  vertical-align: top;
   height: 100%;
-  width: 50%;
   background-color: rgba(0, 128, 128, 0.85);
   color: white;
 }
@@ -135,9 +132,7 @@ button:hover {
 
 
 #why-us-box {
-  display: inline-block;
   height: 100%;
-  width: 50%;
   background-color: rgba(0, 128, 128, 0.75);
   color: white;
 }
@@ -162,4 +157,19 @@ ul {
 
 li {
   margin-bottom: 6px;
+}
+
+@media (min-width: 576px) {
+  #main-box {
+    width: 650px;
+    height: 435px;
+  }
+  #bottom-box{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+  #subscription-box, #why-us-box {
+    width: 50%;
+  }
 }
