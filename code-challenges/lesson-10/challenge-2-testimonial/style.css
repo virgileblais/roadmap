@@ -26,6 +26,7 @@ body {
 #testimonial-1 {
     background-color: #7541c8;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 #testimonial-2 {
@@ -49,10 +50,19 @@ body {
     margin-bottom: 20px;
 }
 
+.header h4, p {
+    position: relative;
+    z-index: 3;
+}
+
 img {
     border-radius: 60%;
-    size-adjust: 50%;
+    size-adjust: 60%;
     margin-right: 15px;
+}
+
+.header .name {
+    font-size: 1.1rem;
 }
 
 .graduation-verification {
@@ -67,6 +77,13 @@ h4 {
 
 .quote-container p {
     opacity: 0.7;
+}
+
+#quote-icon {
+    position: absolute;
+    right: 15%;
+    border-radius: 0;
+    z-index: 1;
 }
 
 @media (min-width: 576px) {
