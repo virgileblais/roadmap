@@ -42,6 +42,16 @@ body {
     background-color: #FFFFFF;
 }
 
+.header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+img {
+    border-radius: 60%;
+    size-adjust: 50%;
+}
+
 @media (min-width: 576px) {
     #testimonial-container {
         display: flex;
