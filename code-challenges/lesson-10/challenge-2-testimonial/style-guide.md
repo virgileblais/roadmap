@@ -13,8 +13,8 @@ The designs were created to the following widths:
 
 Moderate violet: hsl(263, 55%, 52%) #7541c8
 Very dark grayish blue: hsl(217, 19%, 35%) #48556a
-Very dark blackish blue: hsl(219, 29%, 14%) 19212e
-White: hsl(0, 0%, 100%)
+Very dark blackish blue: hsl(219, 29%, 14%) #19212e
+White: hsl(0, 0%, 100%) #FFFFFF
 
 ### Neutral
 
