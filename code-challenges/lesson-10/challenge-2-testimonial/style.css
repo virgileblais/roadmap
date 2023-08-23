@@ -10,8 +10,8 @@ body {
 }
 
 #testimonial-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     width: 80vw;
 }
 
@@ -87,14 +87,16 @@ h4 {
 }
 
 @media (min-width: 576px) {
+
     #testimonial-container {
         display: flex;
         flex-direction: row;
-        width: 80vw;
+        max-width: 1440px;
+        /* margin: 0 auto; ZG*/
         /* height: 70vh; */
     }
     #main-container {
-        flex-basis: 74%;
+        /* flex-basis: 80%; */
         display: flex;
         flex-direction: column;
     }
@@ -102,38 +104,38 @@ h4 {
     #main-container-top {
         display: flex;
         flex-direction: row;
-        flex-basis: 50%;
+        /* flex-basis: 50%; */
     }
 
     #testimonial-1 {
         flex-basis: 67%;
-        margin-right: 15px;
+        /* margin-right: 15px; */
     }
 
     #testimonial-2 {
-        flex-basis: 33%;
+        /* flex-basis: 33%; */
     }
 
     #main-container-bottom {
         display: flex;
         flex-direction: row;
-        flex-basis: 50%;
+        /* flex-basis: 50%; */
     }
 
     #testimonial-3 {
         flex-basis: 25%;
-        margin-right: 15px;
+        /* margin-right: 15px; has no effect due to side container spacing*/
     }
 
     #testimonial-4 {
-        flex-basis: 75%;
+        /* flex-basis: 75%; */
     }
 
     #side-container {
-        flex-basis: 24%;
+        /* flex-basis: 20%; */
         display: flex;
         flex-direction: column;
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
 
     #testimonial-5 {
