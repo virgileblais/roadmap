@@ -41,44 +41,49 @@ body {
         flex-direction: row;
         width: 80vw;
         /* height: 70vh; */
-        margin: 0;
-        justify-content: space-between;
+        margin: 20px;
+        /* justify-content: space-between; */
     }
     #main-container {
         flex-basis: 74%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     #main-container-top {
         display: flex;
         flex-direction: row;
         flex-basis: 49%;
-        justify-content: space-between;
     }
 
     #testimonial-1 {
-        flex-basis: 66%;
+        flex-basis: 67%;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     #testimonial-2 {
-        flex-basis: 32%;
+        flex-basis: 33%;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     #main-container-bottom {
         display: flex;
         flex-direction: row;
-        flex-basis: 49%;
-        justify-content: space-between;
+        flex-basis: 50%;
+        /* justify-content: space-between; */
     }
 
     #testimonial-3 {
-        flex-basis: 24%;
+        flex-basis: 25%;
+        margin-right: 20px;
     }
 
     #testimonial-4 {
-        flex-basis: 74%;
+        flex-basis: 75%;
+        margin-right: 20px;
     }
 
     #side-container {
