@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+
+h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#main-box {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px black;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+#top-box {
+  background-color: white;
+  height: 40%;
+}
+
+#top-box-content {
+  padding: 25px;
+}
+
+#top-box h1 {
+  color: rgba(0, 128, 128, 0.85);
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-bottom:20px
+}
+
+#top-box h2 {
+  color: rgba(154, 205, 45, 0.85);
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-bottom:15px
+}
+
+#top-box-paragraphs {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 11.5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#top-box-first-paragraph {
+    margin-bottom: 5px;
+}
+
+#top-box-second-paragraph {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+#bottom-box {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 100%;
+}
+
+#subscription-box {
+  height: 100%;
+  background-color: rgba(0, 128, 128, 0.85);
+  color: white;
+}
+
+#subscription-box-content {
+  padding: 25px;
+}
+
+#subscription-box-header {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#price {
+  font-size: 34px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+span {
+  vertical-align: 30%;
+  font-size: 16px;
+  font-weight: 2px;
+  font-weight: lighter;
+  color: rgba(255,255,255, 0.5);
+}
+
+#subscription-box p {
+  color: rgba(255,255,255, 0.8);
+  margin-bottom: 30px;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 7px 2px rgba(0,0,0, 0.1);
+  background-color: rgba(154, 205, 45, 0.9);
+  color: white;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(154, 205, 45, 0.8);
+}
+
+
+
+
+
+#why-us-box {
+  height: 100%;
+  background-color: rgba(0, 128, 128, 0.75);
+  color: white;
+}
+
+#why-us-box-content {
+  padding: 25px;
+}
+
+#why-us-box h1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+ul {
+  font-size: 14px;
+  color: rgba(255,255,255, 0.7);
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+@media (min-width: 576px) {
+  #main-box {
+    width: 650px;
+    height: 435px;
+  }
+  #bottom-box{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+  #subscription-box, #why-us-box {
+    width: 50%;
+  }
+}

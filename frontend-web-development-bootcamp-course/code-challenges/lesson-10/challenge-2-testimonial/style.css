@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi-Condensed', sans-serif;
+}
+
+#testimonial-container {
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    width: 80vw;
+}
+
+.testimonials {
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 14px 11px 22px 1px rgba(0, 0, 0, 0.14);
+    font-size: 13px;
+}
+
+#testimonial-1 {
+    background-color: #7541c8;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+#testimonial-2 {
+    background-color: #48556a;
+    color: #FFFFFF;
+}
+
+#testimonial-3 #testimonial-5 {
+    background-color: #FFFFFF;
+    color: #48556a
+}
+
+#testimonial-4 {
+    background-color: #19212e;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h4, p {
+    position: relative;
+    z-index: 3;
+}
+
+img {
+    border-radius: 60%;
+    size-adjust: 60%;
+    margin-right: 15px;
+}
+
+.header .name {
+    font-size: 1.1rem;
+}
+
+.graduation-verification {
+    opacity: 0.5;
+    margin-top: 3px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.quote-container p {
+    opacity: 0.7;
+}
+
+#quote-icon {
+    position: absolute;
+    right: 15%;
+    border-radius: 0;
+    z-index: 1;
+}
+
+@media (min-width: 576px) {
+
+    #testimonial-container {
+        display: flex;
+        flex-direction: row;
+        max-width: 1440px;
+        /* margin: 0 auto; ZG*/
+        /* height: 70vh; */
+    }
+    #main-container {
+        /* flex-basis: 80%; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-container-top {
+        display: flex;
+        flex-direction: row;
+        /* flex-basis: 50%; */
+    }
+
+    #testimonial-1 {
+        flex-basis: 67%;
+        /* margin-right: 15px; */
+    }
+
+    #testimonial-2 {
+        /* flex-basis: 33%; */
+    }
+
+    #main-container-bottom {
+        display: flex;
+        flex-direction: row;
+        /* flex-basis: 50%; */
+    }
+
+    #testimonial-3 {
+        flex-basis: 25%;
+        /* margin-right: 15px; has no effect due to side container spacing*/
+    }
+
+    #testimonial-4 {
+        /* flex-basis: 75%; */
+    }
+
+    #side-container {
+        /* flex-basis: 20%; */
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 15px; */
+    }
+
+    #testimonial-5 {
+    }
+}

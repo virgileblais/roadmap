@@ -1,0 +1,23 @@
+/*
+CHALLENGE:
+Do the following two blocks of code result in the same answer? If not, which one would you recommend using and why?
+
+const firstNumber = 20;
+const secondNumber = '20';
+
+const result = firstNumber === secondNumber;
+
+console.log(result);
+const firstNumber = 20;
+const secondNumber = '20';
+
+const result = firstNumber == secondNumber;
+
+console.log(result);
+*/
+
+/*
+ANSWER:
+No, as the '==' operator in the first block compares the value of firstNumber with the value of secondNumber which are equal thus the block evalutes to true, while the second block's '===' operator also compares type of firstNumber and secondNumber which are not equal thus the block evalutes to false.
+I recommend using the second block of code, thus the '===' operator, as it will be more specific in comparison thus avoiding coercing the values to a common type which could result in unexpected results.
+*/
