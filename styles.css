@@ -9,36 +9,80 @@ body {
     border: 1px solid blue;
     color: #33FF33;
     font-family: 'Courier New', sans-serif;
+    background-image: url('/assets/roadmap-mobile-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-div {
-    border: 1px solid red;
-}
-
-.area-containers {
-    display: flex;
-    width: 100%;
-}
-
-#ground-container, #space-container {
-    
-}
-
-#space-container {
-    height: 30%;
+#nav-container {
+    width: 100vw;
+    height: 80px;
+    position: relative;
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
 }
 
-#sky-container {
-    height: 60%;
-    background: linear-gradient(black, skyblue);
+nav {
+    margin-left: 2vh;
+    margin-right: 1vh;
 }
 
-#ground-container {
-    height: 10%;
-    background-color: #684132;
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+#hamburger-dropdown {
+    display: none;
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: scenter; */
+    align-items: center;
+}
+
+li {
+    /* border-bottom: 5px solid #3399ff; */
+    /* justify-self: center; */
+    font-size: 80px;
+    margin-top: 2vh;
+    color: transparent;
+    background-color: white;
+    width: 88vw;
+    border-radius: 40px;
+}
+
+.dropdown-items {
+    display: block;
+    color: #3399ff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#rocket-container {
+    position: relative;
+    top: 220px;
+    left: 50vw;
 }
 
 @ media (min-width: 1170px) {
-
 }

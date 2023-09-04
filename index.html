@@ -2,23 +2,40 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="area-containers" id="space-container">
-            <p id="space-text">Space</p>
+        <div id="nav-container">
+			<div id="social-media-container">
+				<a id="x-logo-container" href="https://twitter.com/virgileblais">
+					<img class="logo" id="twitter-logo" src="assets/social-media-logos/x-logo/logo-white.png" alt="Twitter Logo"/>
+				</a>
+				<a id="linkedin-logo-container" href="https://www.linkedin.com/in/virgile-bissonnette-blais-b3b067155/">
+					<img class="logo" id="linkedin-logo" src="assets/social-media-logos/LinkedIn-Logos/LI-In-Bug-white.png" alt="LinkedIn Logo"/>
+				</a>
+				<a  id="email-icon-container" href="#">
+					<img class="icon" id="email-icon" src="assets/social-media-logos/email-icon-white.png" alt="Email Icon"/>
+				</a>
+			</div>
+			<nav>
+				<a id="hamburger-icon-container">
+					<img class="icon" id="hamburger-icon" src="assets/social-media-logos/hamburger-icon.png" alt="Hamburger Icon"/>
+				</a>
+				<ul id="hamburger-dropdown" class="hidden">
+					<li><a class="dropdown-items" id="roadmap-item" href="#">Roadmap</a></li>
+					<li><a class="dropdown-items" href="#">Practice</a></li>
+					<li><a class="dropdown-items" href="#">Contact</a></li>
+					<li><a class="dropdown-items" href="#">Resume</a></li>
+				</ul>
+			</nav>			
+		</div>
+        <div id="sky-container"></div>
+        <div id="spaceship-container">
+            <div id="rocket-container">
+				<img id="rocket-git" src="/assets/rocket-assets/starship-fire-animated.gif" alt="Animated Rocket">
+			</div>
         </div>
-        <div class="area-containers" id="sky-container">
-            <p id="sky-text">Sky</p>
-            <div id="spaceship-container">
-                <p id="spaceship-text">Spaceship</p>
-            </div>
-            <div id="spaceport-container">
-                <p id="spaceport-text">Spaceport</p>
-            </div>
-        </div>
-        <div class="area-containers" id="ground-container">
-            <p id="ground-text">Ground</p>
         </div>
     </body>
-    <link rel="stylesheet" href="styles.css">
+    
 </html>
