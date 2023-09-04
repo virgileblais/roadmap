@@ -5,9 +5,9 @@
 - [ ] **Design**
   - [X] feat(xcf): create mobile design
   - [ ] feat(xcf): create desktop design
-  - [X] feat(xcf): create 8bit rocket
+  - [X] feat(aes, gif): create 8bit rocket
   - [ ] feat(xcf): create 8bit space port
-  - [X] feat(xcf): add 8bit assets to mobile and desktop designs
+  - [X] feat(html, css): add 8bit assets to mobile and desktop designs
   - [ ] feat(xcf): create background for mobile
   - [ ] feat(xcf): create background for desktop
 
