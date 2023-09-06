@@ -1,88 +1,38 @@
+/* color: #33FF33; */
+
 * {
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-body {
-    height: 100vh;
+
+#levels-grid {
     width: 100vw;
-    border: 1px solid blue;
-    color: #33FF33;
-    font-family: 'Courier New', sans-serif;
-    background-image: url('/assets/roadmap-mobile-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    grid-row-gap: 6vh;
+
+    border: 2px solid red;
 }
 
-#nav-container {
-    width: 100vw;
-    height: 80px;
-    position: relative;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
+.level {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    border: 2px solid blue;
 }
 
-nav {
-    margin-left: 2vh;
-    margin-right: 1vh;
-}
-
-.logo {
-    width: 40px;
-    height: 40px;
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
-}
-
-
-#hamburger-dropdown {
-    display: none;
-    width: 100vw;
-    height: 75vh;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    background-color: transparent;
-    font-size: 30px;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: scenter; */
-    align-items: center;
-}
-
-li {
-    /* border-bottom: 5px solid #3399ff; */
-    /* justify-self: center; */
-    font-size: 80px;
-    margin-top: 2vh;
-    color: transparent;
-    background-color: white;
-    width: 88vw;
-    border-radius: 40px;
-}
-
-.dropdown-items {
-    display: block;
-    color: #3399ff;
-    text-align: center;
-    text-decoration: none;
-}
-
-#rocket-container {
-    position: relative;
-    top: 220px;
-    left: 50vw;
-}
-
-@ media (min-width: 1170px) {
-}
+#level-js-container { grid-area: 1 / 1 / 2 / 3; }
+#level-html-container { grid-area: 2 / 1 / 3 / 3; }
+#level-dom-container { grid-area: 3 / 1 / 4 / 3; }
+#level-css-container { grid-area: 4 / 1 / 5 / 3; }
+#level-query-container { grid-area: 5 / 1 / 6 / 3; }
+#level-flexbox-container { grid-area: 6 / 1 / 7 / 3; }
+#level-css-grid-container { grid-area: 7 / 1 / 8 / 3; }
+#level-linux-container { grid-area: 8 / 1 / 9 / 3; }
+#level-bash-container { grid-area: 9 / 1 / 10 / 3; }
+#level-git-container { grid-area: 10 / 1 / 11 / 3; }
+#level-github-container { grid-area: 11 / 1 / 12 / 3; }
+#level-angular-container { grid-area: 12 / 1 / 13 / 3; }
+#level-node-js-container { grid-area: 13 / 1 / 14 / 3; }
