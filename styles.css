@@ -84,13 +84,23 @@ nav {
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
+    width: 100vw;
     margin-top: 3vh;
 }
 
-body {
-    background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
-    width: 100vw;
-    margin-top: 5vh;
+#blank-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#question-mark {
+    font-size: 8vw;
+    font-family: sans-serif;
+    color: #33FF33;
 }
 
 #levels-grid {
@@ -135,7 +145,7 @@ body {
 #rocket-container {
     position: absolute;
     bottom: -14vh;
-    margin-left: 50vw;
+    margin-left: 48vw;
 }
 
 #rocket-gif {
@@ -144,7 +154,7 @@ body {
 
 @keyframes rocketAnimation {
     0% { bottom: -28vh; }
-    100% { bottom: 62vh; }
+    100% { bottom: 52vh; }
 }
 
 #rocket-container.animated {
