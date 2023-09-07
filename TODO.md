@@ -12,7 +12,7 @@
 ## Navigation
 
 - [X] feat(html, css): add nav with icons and hamburger dropdown
-- [ ] feat(html, xcf, png): change color of nav icons to match theme
+- [X] feat(html, xcf, png): change color of nav icons to match theme
 - [X] feat(html, css): add footer
 - [ ] feat(JS, html): add obfuscation and HTML entities for email link
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
@@ -31,7 +31,7 @@
 
 ## Animations
   - [X] feat(html, css, js): animate rocket
-  - [ ] feat(html, css, js): set initial viewport to bottom of page
-  - [ ] feat(html, css, js): add automatic scroll up animation
-  - [ ] feat(html, css, js): animate rocket to match automatic scroll up animation
+  - [X] feat(html, css, js): set initial viewport to bottom of page
+  - [X] feat(html, css, js): add automatic scroll up animation
+  - [ ] fix(html, css, js): match rocket animation with scrolling
   - [ ] feat(html, css, js): add a relaunch button

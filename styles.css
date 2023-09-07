@@ -152,6 +152,15 @@ body {
     height: 15vh;
 }
 
+@keyframes rocketAnimation {
+    0% { bottom: -14vh; }
+    100% { bottom: 62vh; }
+}
+
+#rocket-container.animated {
+    animation: rocketAnimation 10s forwards;
+}
+
 footer {
     height: 3vh;
     width: 100vw;
