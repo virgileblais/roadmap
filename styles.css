@@ -2,7 +2,91 @@
 
 * {
     margin: 0;
+    border: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+#nav-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon {
+    height: 1.75vh;
+}
+
+#email-icon, #linkedin-logo {
+    padding-left: 1.5vw;
+}
+
+nav {
+    margin-left: 4vw;
+    margin-right: 3.5vw;
+}
+
+#hamburger-button {
+    background: transparent;
+}
+
+#hamburger-icon {
+    color: #33FF33;
+    height: 1.75vh;
+    width: 1.75vh;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: calc(100% + .25em);
+    background-color: black;
+    box-shadow: 0 0 10px 0 rgba(51, 255, 51, 0.5);
+    border-radius: 5%;
+    opacity: 0;
+    pointer-events: none;
+    transition-delay: opacity 300ms ease-in, transform 150ms ease-in;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0px);
+    pointer-events: auto;
+}
+
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem;
+}
+
+.dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.link {
+    color: #33FF33;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
 }
 
 body {

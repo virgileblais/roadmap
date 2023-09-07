@@ -11,7 +11,7 @@
 
 ## Navigation
 
-- [ ] feat(html, css): add nav with icons and hamburger dropdown
+- [X] feat(html, css): add nav with icons and hamburger dropdown
 - [ ] fix(html, css): fix nav layout and sizing
 - [ ] feat(html, css): add footer
 - [ ] feat(JS, html): add obfuscation and HTML entities for email link
