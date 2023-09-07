@@ -30,7 +30,7 @@
   - [ ] feat(html, css): replace background with expanded roadmap list
 
 ## Animations
-  - [ ] feat(html, css, js): animate rocket
+  - [X] feat(html, css, js): animate rocket
   - [ ] feat(html, css, js): set initial viewport to bottom of page
   - [ ] feat(html, css, js): add automatic scroll up animation
   - [ ] feat(html, css, js): animate rocket to match automatic scroll up animation
