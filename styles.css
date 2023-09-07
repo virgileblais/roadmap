@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+body {
+    background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
+}
 
 #levels-grid {
     width: 100vw;
