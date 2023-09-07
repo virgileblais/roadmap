@@ -7,19 +7,22 @@
 
 body {
     background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
+    width: 100vw;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+
+    /* border: 2px solid blue; */
 }
 
 #levels-grid {
-    width: 100vw;
     display: grid;
     grid-template-columns: auto, 1fr;
     grid-template-rows: repeat(13, 1fr);
     grid-row-gap: 6vh;
-    margin-bottom: 8vh;
-    margin-top: 5vh;
+    height: 100%;
     margin-left: 2.5vw;
 
-    /* border: 2px solid red; */
+    /* border: 3px solid red; */
 }
 
 .level {
@@ -51,4 +54,16 @@ body {
 
 .level-line {
     border-bottom: 0.15vh solid #33FF33;
+}
+
+#rocket-container {
+    position: absolute;
+    bottom: -14vh;
+    margin-left: 50vw;
+
+    /* border: 2px solid red; */
+}
+
+#rocket-gif {
+    height: 15vh;
 }
