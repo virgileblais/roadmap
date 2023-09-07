@@ -20,7 +20,7 @@
 
 ## General 
   - [X] feat(html, css): add grid for levels
-  - [ ] feat(html, css): add content and stayling to levels-grid
+  - [X] feat(html, css): add content and styling to levels-grid
   - [ ] feat(html, css): add rocket container
   - [ ] feat(html, css): add rocket container 
   - [ ] feat(html, css): add background and assets to containers
