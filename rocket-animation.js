@@ -18,7 +18,7 @@ function step(timestamp) {
 
     let scrollAmount = (progress / duration) * (document.body.scrollHeight - window.innerHeight);
 
-    window.scrollTo(0, document.body.scrollHeight - scrollAmount);
+    window.scrollTo(0, scrollAmount);
     if (progress < duration) {
         window.requestAnimationFrame(step);
     }
