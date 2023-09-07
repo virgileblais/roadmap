@@ -23,6 +23,7 @@
   - [X] feat(html, css): add content and styling to levels-grid
   - [X] feat(html, css): add background
   - [X] feat(html, css): add rocket container and rocket
+  - [ ] feat(html, css): add blank grid spaces above highest level
   - [ ] feat(html, css): add background and assets to containers
 
 ## Responsive Design
@@ -33,5 +34,5 @@
   - [X] feat(html, css, js): animate rocket
   - [X] feat(html, css, js): set initial viewport to bottom of page
   - [X] feat(html, css, js): add automatic scroll up animation
-  - [ ] fix(html, css, js): match rocket animation with scrolling
+  - [X] fix(js): match rocket animation with scrolling
   - [ ] feat(html, css, js): add a relaunch button

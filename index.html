@@ -91,33 +91,6 @@
             <img id="rocket-gif" src="/assets/rocket-assets/starship-fire-animated.gif" alt="Animated Rocket">
         </div>
         <script src="rocket-animation.js"></script>
-        <script>window.onload = function() {
-            window.scrollTo(0,document.body.scrollHeight);
-        }
-        
-        let start;
-        let duration = 10000; // 10s to match rocket animation duration
-        
-        function step(timestamp) {
-            if (!start) start = timestamp;
-            let progress = timestamp - start;
-        
-            // calculate the scrollTop position
-            let scrollAmount = (progress / duration) * (document.body.scrollHeight - window.innerHeight);
-        
-            window.scrollTo(0, document.body.scrollHeight - scrollAmount);
-            if (progress < duration) {
-                window.requestAnimationFrame(step);
-            }
-        }
-        
-        document.getElementById('rocket-gif').addEventListener('click', function() {
-            // Start the rocket animation
-            document.getElementById('rocket-container').classList.add('animated');
-        
-            // Start the auto-scroll
-            window.requestAnimationFrame(step);
-        });</script>
     </body>
     <footer>
 		<div id="copyright-container">
