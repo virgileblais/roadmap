@@ -12,8 +12,8 @@
 ## Navigation
 
 - [X] feat(html, css): add nav with icons and hamburger dropdown
-- [ ] fix(html, css): fix nav layout and sizing
-- [ ] feat(html, css): add footer
+- [ ] feat(html, xcf, png): change color of nav icons to match theme
+- [X] feat(html, css): add footer
 - [ ] feat(JS, html): add obfuscation and HTML entities for email link
 - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
 - [ ] feat(css, html): add GitHub content and link for nav

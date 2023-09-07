@@ -92,7 +92,6 @@ body {
 body {
     background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
     width: 100vw;
-    margin-bottom: 8vh;
     margin-top: 5vh;
 
     /* border: 2px solid blue; */
@@ -105,6 +104,7 @@ body {
     grid-row-gap: 6vh;
     height: 100%;
     margin-left: 2.5vw;
+    margin-bottom: 8vh;
 
     /* border: 3px solid red; */
 }
@@ -150,4 +150,53 @@ body {
 
 #rocket-gif {
     height: 15vh;
+}
+
+footer {
+    height: 3vh;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #33FF33;
+    font-family: sans-serif;
+}
+
+#copyright-container {
+    margin-left: 3.5vw;
+}
+
+#nav-footer-container {
+    width: 40vw;
+    margin-right: 3.5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px; 
+    align-items: center;
+    text-align: center;
+}
+
+#developer-footer-link {
+    grid-area: 1 / 1 / 2 / 2;
+    color: #33FF33;
+}
+
+#graphic-designer-footer-link {
+    grid-area: 1 / 2 / 2 / 3;
+    color: #33FF33;
+}
+
+#roadmap-footer-link {
+    grid-area: 1 / 3 / 2 / 4;
+    color: #33FF33;
+}
+
+#practice-footer-link {
+    grid-area: 1 / 4 / 2 / 5;
+    color: #33FF33;
 }
