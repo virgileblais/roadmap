@@ -25,6 +25,7 @@
   - [X] feat(html, css): add rocket container and rocket
   - [X] feat(html, css): add blank space above highest level
   - [X] feat(html, xcf, png): add title and favicon to head
+  - [X] fix(html): add missing meta tags
 
 ## Responsive Design
   - [ ] feat(html, css): add desktop breakpoint
