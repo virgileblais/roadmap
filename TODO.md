@@ -12,6 +12,7 @@
   - [X] fix(html, css): restore sizing and positioning from before having applied scale meta tag
   - [X] feat(html, css): add additional levels
   - [X] fix(css): readjust rocket animation for additional levels
+  - [X] fix(css): refactor css to remove duplicate code
 
 
 ## Design

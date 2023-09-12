@@ -38,7 +38,6 @@ nav {
 }
 
 #hamburger-icon {
-    color: #33FF33;
     height: 2.5vh;
     width: 2.5vh;
     display: flex;
@@ -79,9 +78,7 @@ nav {
 }
 
 .link {
-    color: #33FF33;
     font-size: 50px;
-    font-family: sans-serif;
 }
 
 body {
@@ -106,8 +103,6 @@ body {
 
 #question-mark {
     font-size: 8vw;
-    font-family: sans-serif;
-    color: #33FF33;
 }
 
 #levels-grid {
@@ -146,8 +141,6 @@ body {
 
 .level-title {
     font-size: 4vw;
-    font-family: sans-serif;
-    color: #33FF33;
 }
 
 .level-line {
@@ -186,8 +179,6 @@ footer {
 
 #copyright-container {
     padding-left: 10%;
-
-    /* border: 1px solid red; */
 }
 
 #nav-footer-container {
@@ -200,26 +191,20 @@ footer {
     grid-row-gap: 0;
     align-items: center;
     text-align: center;
-
-    /* border: 1px solid red; */
 }
 
 #developer-footer-link {
     grid-area: 1 / 1 / 2 / 2;
-    color: #33FF33;
 }
 
 #graphic-designer-footer-link {
     grid-area: 1 / 2 / 2 / 3;
-    color: #33FF33;
 }
 
 #roadmap-footer-link {
     grid-area: 1 / 3 / 2 / 4;
-    color: #33FF33;
 }
 
 #practice-footer-link {
     grid-area: 1 / 4 / 2 / 5;
-    color: #33FF33;
 }
