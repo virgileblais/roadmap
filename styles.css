@@ -91,7 +91,7 @@ body {
     background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
     margin-top: 5vh;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #blank-space {
@@ -101,7 +101,7 @@ body {
     padding-top: 4vh;
     padding-bottom: 4vh;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #question-mark {
@@ -119,7 +119,7 @@ body {
     padding-left: 2.5vw;
     padding-bottom: 8vh;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .level {
@@ -129,17 +129,20 @@ body {
 
 #level-node-js-container { grid-area: 1 / 1 / 2 / 3; }
 #level-angular-container { grid-area: 2 / 1 / 3 / 3; }
-#level-github-container { grid-area: 3 / 1 / 4 / 3; }
-#level-git-container { grid-area: 4 / 1 / 5 / 3; }
-#level-bash-container { grid-area: 5 / 1 / 6 / 3; }
-#level-linux-container { grid-area: 6 / 1 / 7 / 3; }
-#level-css-grid-container { grid-area: 7 / 1 / 8 / 3; }
-#level-flexbox-container { grid-area: 8 / 1 / 9 / 3; }
-#level-query-container { grid-area: 9 / 1 / 10 / 3; }
-#level-css-container { grid-area: 10 / 1 / 11 / 3; }
-#level-dom-container { grid-area: 11 / 1 / 12 / 3; }
-#level-html-container { grid-area: 12 / 1 / 13 / 3; }
-#level-js-container { grid-area: 13 / 1 / 14 / 3; }
+#level-npm-container { grid-area: 3 / 1 / 4 / 3; }
+#level-github-container { grid-area: 4 / 1 / 5 / 3; }
+#level-git-container { grid-area: 5 / 1 / 6 / 3; }
+#level-bash-container { grid-area: 6 / 1 / 7 / 3; }
+#level-linux-container { grid-area: 7 / 1 / 8 / 3; }
+#level-bem-container { grid-area: 8 / 1 / 9 / 3; }
+#level-tailwind-container { grid-area: 9 / 1 / 10 / 3; }
+#level-css-grid-container { grid-area: 10 / 1 / 11 / 3; }
+#level-flexbox-container { grid-area: 11 / 1 / 12 / 3; }
+#level-query-container { grid-area: 12 / 1 / 13 / 3; }
+#level-css-container { grid-area: 13 / 1 / 14 / 3; }
+#level-dom-container { grid-area: 14 / 1 / 15 / 3; }
+#level-html-container { grid-area: 15 / 1 / 16 / 3; }
+#level-js-container { grid-area: 16 / 1 / 17 / 3; }
 
 .level-title {
     font-size: 4vw;
@@ -153,7 +156,6 @@ body {
 
 #rocket-container {
     position: absolute;
-    bottom: -14vh;
     margin-left: 48vw;
 }
 
@@ -162,8 +164,8 @@ body {
 }
 
 @keyframes rocketAnimation {
-    0% { bottom: -28vh; }
-    100% { bottom: 52vh; }
+    0% { bottom: -88vh; }
+    100% { bottom: 50vh; }
 }
 
 #rocket-container.animated {
