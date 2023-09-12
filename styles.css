@@ -2,15 +2,18 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
+    color: #33FF33;
 }
 
 #nav-container {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     background-color: black;
-    height: 3vh;
+    height: 5vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,16 +21,16 @@
 }
 
 .icon {
-    height: 1.75vh;
+    height: 2.5vh;
 }
 
 #email-icon, #linkedin-logo {
-    padding-left: 1.5vw;
+    padding-left: 0.5rem;
 }
 
 nav {
-    margin-left: 4vw;
-    margin-right: 3.5vw;
+    margin-left: 2rem;
+    margin-right: 1.25rem;
 }
 
 #hamburger-button {
@@ -36,8 +39,8 @@ nav {
 
 #hamburger-icon {
     color: #33FF33;
-    height: 1.75vh;
-    width: 1.75vh;
+    height: 2.5vh;
+    width: 2.5vh;
     display: flex;
 }
 
@@ -163,31 +166,34 @@ body {
 
 footer {
     height: 3vh;
-    width: 100vw;
+    width: 100%;
     bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    color: #33FF33;
-    font-family: sans-serif;
+    font-size: 1.5vw;
 }
 
 #copyright-container {
-    margin-left: 3.5vw;
+    padding-left: 10%;
+
+    /* border: 1px solid red; */
 }
 
 #nav-footer-container {
-    width: 40vw;
-    margin-right: 3.5vw;
+    width: 40%;
+    padding-right: 10%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px; 
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 75%;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0;
     align-items: center;
     text-align: center;
+
+    /* border: 1px solid red; */
 }
 
 #developer-footer-link {
