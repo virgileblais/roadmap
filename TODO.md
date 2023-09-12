@@ -21,8 +21,7 @@
   - [X] feat(aes, gif): create 8bit rocket
   - [ ] feat(xcf): create 8bit space port
   - [X] feat(html, css): add 8bit assets to mobile and desktop designs
-  - [ ] feat(xcf): create background for mobile
-  - [ ] feat(xcf): create background for desktop
+  - [X] feat(css): add text shadow for glow effect
 
 ## Navigation
  - [X] feat(html, css): add nav with icons and hamburger dropdown
