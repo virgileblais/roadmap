@@ -32,6 +32,7 @@
  - [ ] feat(JS, html): add obfuscation and HTML entities for email link
  - [ ] feat(html, css, JS): add opacity to rest of page on dropdown click event
  - [ ] feat(css, html): add GitHub content and link for nav
+ - [ ] feat(html, css, js): add hover effect to nav icons
 
 ## Responsive Design
 - [X] feat(css): adjust rocket animation's endpoint to be more responsive
@@ -42,5 +43,6 @@
   - [X] feat(html, css, js): set initial viewport to bottom of page
   - [X] feat(html, css, js): add automatic scroll up animation
   - [X] fix(js): match rocket animation with scrolling
+  - [X] fix(css): adjust rocket animation's endpoint based on live mobile test
   - [ ] fix(js): increase animation speed
   - [ ] feat(html, css, js): add a relaunch button

@@ -154,7 +154,7 @@ body {
 
 @keyframes rocketAnimation {  /*-100vh + 5vh + 14vh + 15.5vh + 3vh*/
     0% { bottom: calc(-70%); }/*-(Viewport height) + (Header height) + (Question Box Height) + (Rocket height) + (Footer Height)]*/
-    100% { bottom: calc(100vh - 15.5vh - 5vh - 14vh - 16.5vh); } /*(Viewport height) - (Rocket height) - (Header height) - (Question Box Height) - (2.25vh per level + 6vh per level gap)*/
+    100% { bottom: calc(100vh - 15.5vh - 5vh - 14vh - 16.5vh - 14.6vh); } /*(Viewport height) - (Rocket height) - (Header height) - (Question Box Height) - (2.25vh per level + 6vh per level gap) - (Live test correction)*/
 }
 
 #rocket-container.animated {
