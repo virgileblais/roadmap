@@ -85,19 +85,23 @@ nav {
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
-    width: 100vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
+
+    border: 1px solid red;
 }
 
 #blank-space {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+
+    border: 1px solid red;
 }
 
 #question-mark {
@@ -112,8 +116,10 @@ body {
     grid-template-rows: repeat(13, 1fr);
     grid-row-gap: 6vh;
     height: 100%;
-    margin-left: 2.5vw;
-    margin-bottom: 8vh;
+    padding-left: 2.5vw;
+    padding-bottom: 8vh;
+
+    border: 1px solid red;
 }
 
 .level {
@@ -173,7 +179,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 
 #copyright-container {
@@ -183,7 +189,7 @@ footer {
 }
 
 #nav-footer-container {
-    width: 40%;
+    width: 50%;
     padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(4, auto);
