@@ -13,6 +13,7 @@
   - [X] feat(html, css): add additional levels
   - [X] fix(css): readjust rocket animation for additional levels
   - [X] fix(css): refactor css to remove duplicate code
+  - [X] fix(css): add favicon
 
 
 ## Design
@@ -34,9 +35,7 @@
 
 ## Responsive Design
 - [X] feat(css): adjust rocket animation's endpoint to be more responsive
-- [ ] feat(css): add desktop breakpoint
-- [ ] feat(css): add large desktop breakpoint
-- [ ] feat(css): add ultra large desktop breakpoint
+- [X] feat(css): add desktop breakpoint
 
 ## Animations
   - [X] feat(html, css, js): animate rocket
