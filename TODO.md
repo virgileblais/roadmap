@@ -33,7 +33,12 @@
  - [ ] feat(css, html): add GitHub content and link for nav
 
 ## Responsive Design
-  - [ ] feat(html, css): add desktop breakpoint
+- [X] feat(css): adjust rocket animation's endpoint to be more responsive
+- [ ] feat(css): add tablet breakpoint
+- [ ] feat(css): add small desktop breakpoint
+- [ ] feat(css): add regular desktop breakpoint
+- [ ] feat(css): add large desktop breakpoint
+- [ ] feat(css): add ultra large desktop breakpoint
 
 ## Animations
   - [X] feat(html, css, js): animate rocket

@@ -88,8 +88,6 @@ body {
     flex-direction: column;
     background: linear-gradient(to top, #87CEEB 0%, black 66%, black 100%);
     margin-top: 5vh;
-
-    /* border: 1px solid red; */
 }
 
 #blank-space {
@@ -98,24 +96,20 @@ body {
     justify-content: center;
     padding-top: 4vh;
     padding-bottom: 4vh;
-
-    /* border: 1px solid red; */
 }
 
 #question-mark {
-    font-size: 8vw;
+    font-size: 3.58vh;
 }
 
 #levels-grid {
     display: grid;
     grid-template-columns: auto, 1fr;
-    grid-template-rows: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 2.25vh);
     grid-row-gap: 6vh;
     height: 100%;
     padding-left: 2.5vw;
     padding-bottom: 8vh;
-
-    /* border: 1px solid red; */
 }
 
 .level {
@@ -160,7 +154,7 @@ body {
 
 @keyframes rocketAnimation {
     0% { bottom: -88vh; }
-    100% { bottom: 50vh; }
+    100% { bottom: calc(100vh - 15.5vh - 5vh - 13vh - 16.6vh); } /*(Viewport height) - (Rocket height) - (Header height) - (Question Box Height) - (2.3vh per level + 6vh per level gap)*/
 }
 
 #rocket-container.animated {
@@ -176,11 +170,16 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: black;
+    text-shadow: none;
     font-size: 1.75vw;
 }
 
 #copyright-container {
     padding-left: 10%;
+}
+
+#copyright-text {
+    text-shadow: none;
 }
 
 #nav-footer-container {
@@ -197,16 +196,20 @@ footer {
 
 #developer-footer-link {
     grid-area: 1 / 1 / 2 / 2;
+    text-shadow: none;
 }
 
 #graphic-designer-footer-link {
     grid-area: 1 / 2 / 2 / 3;
+    text-shadow: none;
 }
 
 #roadmap-footer-link {
     grid-area: 1 / 3 / 2 / 4;
+    text-shadow: none;
 }
 
 #practice-footer-link {
     grid-area: 1 / 4 / 2 / 5;
+    text-shadow: none;
 }
